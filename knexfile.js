@@ -4,16 +4,12 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      filename: 'postgres://localhost/8080'
-    }
+    connection: 'postgres://localhost/coffeehousedb'
   },
 
   production: {
     client: 'pg',
-    connection: {
-      database: ''
-    }
+    connection: `${process.env.DATABASE_URL}?ssl=true`
   }
 
 }
