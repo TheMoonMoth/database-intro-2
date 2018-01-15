@@ -5,6 +5,7 @@ You're making an API that can list, create, read, update, and delete a collectio
 ### Setup
 
 Make a local database and setup a `knexfile` to connect to it.
+name: coffeehousedb
 
 ### Migrate
 
