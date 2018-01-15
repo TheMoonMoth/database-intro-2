@@ -5,7 +5,6 @@ You're making an API that can list, create, read, update, and delete a collectio
 ### Setup
 
 Make a local database and setup a `knexfile` to connect to it.
-name: coffeehousedb
 
 ### Migrate
 
@@ -69,4 +68,4 @@ Deploy this API. Note that you'll need to create a remote database, run your mig
 
 * You can test your API locally with `npm test`
 
-Add a link to your [deployed API]() here.
+Add a link to your [deployed API](https://rocky-cliffs-15922.herokuapp.com/coffees) here.
